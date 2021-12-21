@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    background: #6CBEED;
+}
+
+main{
+    width: 40%;
+    top: 10%;
+    left: 30%;
+    background: white;
+    border-radius: 10px;
+    min-width: 450px;
+    position: absolute;
+    min-height: 100px;
+    /* transform: translate(-50%,-50%); */
+    display: block;
+    /* position: relative;
+    bottom: 20px; */
+}
+
+form{
+    position: relative;
+    padding: 30px 20px;
+}
+
+#nombre{
+    width: 75%;
+    height: 38px;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+}
+
+#nombre:focus{
+    outline: none;
+    border-color: #0d75ec;
+}
+
+#enviar{
+    position: relative;
+    float: right;
+    font-weight: 500;
+    font-size: 22px;
+    background-color: #08415c;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    width: 20%;
+    height: 65px;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+}
+
+#enviar:hover{
+    cursor: pointer;
+    background-color: #87255B;
+}
+
+#tareas{
+    border-radius: 10px;
+    width: 90%;
+    position: relative;
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#content{
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #939697;
+    cursor: pointer;
+    background-color: #c5e1e6;
+    height: 35px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    width: 100%;
+    display: flex;
+}
+
+/* #content span{
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+} */
+
+#editar{
+    position: relative;
+    float: right;
+    font-weight: 500;
+    font-size: 22px;
+    background-color: #31572C;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    width: 20%;
+    height: 47px;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    margin: 10px;
+}
+
+#editar:hover{
+    background-color: #A5CC6B;
+}
+
+#delete{
+    position: relative;
+    float: right;
+    font-weight: 500;
+    font-size: 22px;
+    background-color: #D64045;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    width: 20%;
+    height: 47px;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+}
+
+#delete:hover{
+    background-color: #960200;
+}
+
